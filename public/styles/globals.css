@@ -1,0 +1,31 @@
+:root {
+  --red-color: red;
+  --blue-color: blue;
+  --yellow-color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+input,
+button,
+select {
+  border: none;
+  outline: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
